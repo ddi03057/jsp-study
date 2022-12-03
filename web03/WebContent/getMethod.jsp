@@ -13,7 +13,7 @@
 	String id = request.getParameter("id");
     
 %>
-<//--결론 : 이 두가지 값은 Null로나옴 cf)웹 상에서 http://localhost:8084/getMethod.jsp?name=%EC%9D%B4%EC%B0%AC%EC%A7%84(이찬진)&id=cjjj 입력시 값 도출 //--%>
+<%//-- 결론 : 이 두가지 값은 Null로나옴 cf)웹주소에다가 http://localhost:8084/getMethod.jsp?name=%EC%9D%B4%EC%B0%AC%EC%A7%84(이찬진)&id=cjjj 입력시 값 도출*)(특정값 검사시 웹 도메인에다 입력])) //--%> %>
 ID : <%=id %> <br/>
 NAME ; <%=name %> <br/>
 </body>
