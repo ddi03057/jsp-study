@@ -8,5 +8,7 @@
 </head>
 <body>
 
+	<%response.sendRedirect("http://www.daum.net"); %>
+
 </body>
 </html>
